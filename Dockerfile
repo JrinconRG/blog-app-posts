@@ -8,3 +8,6 @@ EXPOSE 5000
 COPY . .
 RUN python app.test.py
 CMD ["flask", "run"]
+
+
+
